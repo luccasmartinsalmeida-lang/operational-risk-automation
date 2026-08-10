@@ -1,5 +1,9 @@
 # Automated Operational & IT Risk Register
 
+**Developer Note:** 
+> Looking for a raw, lightweight, and 100% plain Python/Pandas script without heavy Excel styling or dashboard formatting? 
+> Check out `risk_register_fast.py`. It focuses purely on data cleaning, defensive validation, risk score binning (`pd.cut`), and fast multi-tab Excel export.
+
 An automated Python solution designed to process, quantify, and report Operational and IT risks. This project ingests raw risk data, automatically calculates risk scores and severity metrics based on a 5 × 5 risk matrix, and generates an executive-ready Excel dashboard with visual analytics.
 
 ## Key Features
